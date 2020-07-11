@@ -1,0 +1,178 @@
+body{
+	   font-family:arial,helvetica;
+	   background-color:#ECF0F1 ;
+	   margin:0;
+	   padding:0;
+	 
+}
+
+
+#wrapper{
+	      border:0px solid black;
+		  width:1000px;
+		  background:white;  
+	      margin:0 auto;  		  
+}
+  
+   #header{
+	   
+	        background-color:slategrey;
+	        border:1px solid slategrey;
+            font-size:small;
+			color:white;
+			text-align:center;
+            height:100px;
+     		line-height:60px;
+            background-image:url(57003.png);
+            background-repeat:no-repeat;
+            background-size:30px;
+            background-position:37% 47%;      			
+   }
+     .Menu ul{
+		    background-color:silver;
+          	border:1px solid silver;			
+		    margin:0;
+            padding:0;
+			
+            			
+		    
+	  }
+ 
+    .Menu li{
+              		     
+	   		  display:inline-block;
+           	  list-style-type:none;	      
+	          box-sizing:border-box; 
+			  min-height:51.8px;  
+	}  
+	.Menu li a{
+		     display:block;
+		     text-decoration-line:none;
+		     padding:15px;
+			 color:black;
+               			 
+	}
+	.Menu li a:hover{
+		background-color:black;
+		color:white;
+		border-bottom:4px solid blue;
+		transition:all .4s ease-in-out;
+		
+		
+	}
+		
+	 
+	 
+	 .content{
+		 
+		     padding-left:10px;
+	         text-align:justify;			 
+             float:left;
+			 width:650px;
+			 
+			 
+	 }
+
+     .Login{
+		    border:0px solid grey;
+			width:300px;
+			height:225px;
+			padding-left:10px;
+			background-color:#34495E;
+	        float:right;
+	       	min-height:485px;	
+			font-weight:bold;
+	        font-size:small; 
+		
+	 }
+	 .Login h5{
+		     width:245px;
+	  	     border-bottom:4px double black;
+			 font-weight:bolder;
+			 font-size:medium;
+		 
+	 }
+	 #footer{
+		      clear:both;
+		      background-color:black;
+              color:white;
+              height:30px;
+			  padding:10px;
+			  line-height:10px;
+			  text-align:center;
+	 }
+	 @media screen and (max-width:1020px){
+	      #wrapper{
+	         width:800px; 
+		  }
+  
+   .content{
+		   width:80%;
+		     		 
+	 }  
+}	 
+ 
+ @media screen and (max-width:510px){
+	      #wrapper{
+	      width:auto;
+  		  
+}	 
+        .content{
+		   width:auto;
+		   float:none;
+		     		 
+	 }
+    
+      .Login{
+		    
+			 width:auto; 
+	         float:none;
+	 }	
+	    
+	
+	 
+	  #header{
+	        font-size:xx-small;
+			height:200px;
+			line-height:160px;
+			background-size:20px;
+     		background-position:31% 46%;	
+   }
+    .Menu li{
+              		     
+	   		  font-size:small;
+			  min-height:47.7px;
+		
+              			  
+	}
+.Menu li a:hover{
+		background-color:black;
+		color:white;
+		border-bottom:3px solid blue;
+	}	
+	 .content h2{
+		 
+		     padding-left:5px;
+	         font-size:large;
+			 
+			 
+			 
+	 }
+	  .content p{
+		       padding-left:5px;
+	           font-size:small; 
+	  }
+	   .Login { 
+		  
+		  text-align:center;
+		  color:white;
+	      
+	   }
+  
+      .Login h5{
+		    text-align:center;
+			margin-left:115px;
+			
+	  }  
+ }  
+   
